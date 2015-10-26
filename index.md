@@ -8,7 +8,7 @@ title: Home
 ---
 **denovolyzeR** is an R package for the analysis of *de novo* (sporadic) genetic variants,  using a statistical framework described and validated by [Samocha *et al*][Samocha]. Briefly, for each gene we derive the expected number of *de novo* events in a given population based on the mutability of the gene and the number of individuals sequenced, compare the observed number of *de novos* against expectation using a Poisson framework, and determine whether there is an excess of *de novo* events in a given variant class, gene, or pathway.  
 
-This approach has been  applied to explore the role of *de novo* variants in a number of contexts, including autism spectrum disorders ([Samocha et al Nature Genetics 2014][Samocha]) and congenital heart disease (Homsy *et al* in press at Science).
+This approach has been  applied to explore the role of *de novo* variants in a number of contexts, including autism spectrum disorders ([Samocha *et al* Nature Genetics 2014][Samocha]) and congenital heart disease (Homsy *et al* in press at Science).
 
 For a worked example of a typical *de novo* analysis using denovolyzeR, see the [denovolyzeR package vignette][demo].
 

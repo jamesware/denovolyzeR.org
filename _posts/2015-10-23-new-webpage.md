@@ -1,14 +1,10 @@
 ---
 layout: post
-title: New webpage
+title: Website update
 ---
 
-<div class="message">
-  The denovolyzeR website has been updated.
-</div>
-
-
+The denovolyzeR website has been updated.
 -----
 
-Want to see something else added? <a class="sidebar-nav-item" target="_blank" href="{{ site.github.repo }}/issues/new">Open an issue.</a>
+Want to see something else added? <a class="sidebar-nav-item" target="_blank" href="https://github.com/jamesware/denovolyzer.org/issues/new">Open an issue.</a>
 
