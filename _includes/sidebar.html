@@ -9,6 +9,15 @@
       <p class="lead">{{ site.description }}</p>
     </div>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
       <a class="sidebar-nav-item" target="_blank" href="http://htmlpreview.github.io/?https://github.com/jamesware/denovolyzeR/blob/master/inst/doc/denovolyzeR_intro.html">Demonstration</a>
@@ -28,11 +37,13 @@
       {% endfor %}
 
       <a class="sidebar-nav-item" target="_blank" href="{{ site.github.repo }}">GitHub project</a>
-      <a class="sidebar-nav-item" target="_blank" href="{{ site.github.repo }}/issues/new">Report an issue with denovolyzeR</a>
-      <a class="sidebar-nav-item" target="_blank" href="https://github.com/jamesware/denovolyzeR.org/issues/new">Report an issue with this website</a>
+      <a class="sidebar-nav-item" target="_blank" href="{{ site.github.repo }}/issues/new">Report an issue</a>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://denovolyzer.org" data-text="Check out this R package for de novo genetic variant analysis" data-count="none">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><br>
+      <div class="fb-share-button" data-href="http://denovolyzer.org" data-layout="button"></div>
       <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    
   </div>
 </div>
