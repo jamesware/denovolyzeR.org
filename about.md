@@ -3,28 +3,18 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+**denovolyzeR** is written and maintained by [James Ware], with contributions from [Kaitlin Samocha] and [Jason Homsy].  The underlying statistical model was developed by Kaitlin, working under the supervision of Mark Daly.   
+The package was written using [R], [RStudio], devtools, roxygen, knitr, rmarkdown and dplyr, and is hosted on [GitHub], with [Travis CI] monitoring the build status of versions under development.  
+The denovolyzeR manuscript, published in [Current Protocols in Human Genetics][cphg], was authored using rmarkdown and knitr, and the source code is available on [GitHub][cphgSource].  **find link**  
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+This website is built using [Jekyll](http://jekyllrb.com) and [Hyde](http://hyde.getpoole.com).  
 
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+[James Ware]: http://www.imperial.ac.uk/people/j.ware
+[Kaitlin Samocha]: https://www.atgu.mgh.harvard.edu/people/kaitlin_samocha
+[Jason Homsy]: https://connects.catalyst.harvard.edu/Profiles/display/Person/90618
+[cphg]: http://onlinelibrary.wiley.com/doi/10.1002/0471142905.hg0725s87/abstract
+[GitHub]: https://github.com/jamesware/denovolyzeR/
+[cphgSource]: https://github.com/jamesware/denovolyzeR/
+[Travis CI]: https://travis-ci.org
+[R]: http://r-project.org/
+[RStudio]: http://rstudio.com
