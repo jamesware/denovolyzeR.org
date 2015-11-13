@@ -39,7 +39,7 @@ devtools::install_github("jamesware/denovolyzeR")
 ---
 ### References and resources
 - The original description of the statistical framework implemented by denovolyzeR is published in [Nature Genetics][Samocha].
-- To cite denovolyzeR, please cite our manuscript in [Current Protocols in Human Genetics][Ware].
+- To cite denovolyzeR, please cite our manuscript in [Current Protocols in Human Genetics][Ware], also available via [PubMed Central][PMC]. 
 You can [Click here](mailto:j.ware@imperial.ac.uk?subject=denovolyzeR cphg reprint request&body=I think denovolyzeR is the best thing since sliced bread.  Please send me a copy of your manuscript.) to request a reprint of the manuscript.  
 - The first study to apply denovolyzeR investigated the role of *de novo* variants in congenital heart disease, and is in press at Science.
 [Click here](mailto:j.ware@imperial.ac.uk?subject=denovolyzeR chd_science reprint request) to request a preprint of the manuscript.  
@@ -55,6 +55,7 @@ Alternative mutational probability tables that can be downloaded for use with de
 	"Samocha et al. Nature Genetics 2014"
 [Ware]: http://onlinelibrary.wiley.com/doi/10.1002/0471142905.hg0725s87/abstract
 	"Ware et al. Current Protocols in Human Genetics 2015"
+[PMC]: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4606471/
 [demo]: http://htmlpreview.github.io/?https://github.com/jamesware/denovolyzeR/blob/master/inst/doc/denovolyzeR_intro.html
 	"denovolyzeR package vignette"
 [cran]: cran.r-project.org
