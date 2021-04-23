@@ -18,4 +18,4 @@ the `_site` folder is copied to the live server `denovolyzeR.org:~/live/docs`
 
 
 [denovolyzeR]: http://denovolyzeR.org
-[jekyll](https://jekyllrb.com)
+[jekyll]: https://jekyllrb.com
